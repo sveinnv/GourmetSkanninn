@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6D3309016171590002537B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D3308E16171590002537B5 /* Default.png */; };
+		E6D3309116171590002537B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6D3308F16171590002537B5 /* Default@2x.png */; };
+		E6EC8C76160CC90600027CC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EC8C75160CC90600027CC9 /* UIKit.framework */; };
+		E6EC8C78160CC90600027CC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EC8C77160CC90600027CC9 /* Foundation.framework */; };
+		E6EC8C7A160CC90600027CC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EC8C79160CC90600027CC9 /* CoreGraphics.framework */; };
+		E6EC8C80160CC90600027CC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6EC8C7E160CC90600027CC9 /* InfoPlist.strings */; };
+		E6EC8C82160CC90600027CC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EC8C81160CC90600027CC9 /* main.m */; };
+		E6EC8C86160CC90600027CC9 /* YMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EC8C85160CC90600027CC9 /* YMAppDelegate.m */; };
+		E6EC8C95160CC93500027CC9 /* YMScannerVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EC8C93160CC93500027CC9 /* YMScannerVCViewController.m */; };
+		E6EC8C96160CC93500027CC9 /* YMScannerVCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EC8C94160CC93500027CC9 /* YMScannerVCViewController.xib */; };
+		E6EC8C9A160CC95B00027CC9 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E6EC8C97160CC95B00027CC9 /* Icon.png */; };
+		E6EC8C9B160CC95B00027CC9 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6EC8C98160CC95B00027CC9 /* Icon@2x.png */; };
+		E6EC8C9C160CC95B00027CC9 /* meter.png in Resources */ = {isa = PBXBuildFile; fileRef = E6EC8C99160CC95B00027CC9 /* meter.png */; };
+		E6EC8CA1160CCAB300027CC9 /* YMScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EC8C9E160CCAB300027CC9 /* YMScanner.m */; };
+		E6EC8CA2160CCAB300027CC9 /* YMScannerSound.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EC8CA0160CCAB300027CC9 /* YMScannerSound.m */; };
+		E6EC8CA4160CCC5900027CC9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EC8CA3160CCC5900027CC9 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6D3308E16171590002537B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E6D3308F16171590002537B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E6EC8C71160CC90600027CC9 /* GourmetSkanninn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GourmetSkanninn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EC8C75160CC90600027CC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6EC8C77160CC90600027CC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6EC8C79160CC90600027CC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6EC8C7D160CC90600027CC9 /* GourmetSkanninn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GourmetSkanninn-Info.plist"; sourceTree = "<group>"; };
+		E6EC8C7F160CC90600027CC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6EC8C81160CC90600027CC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6EC8C83160CC90600027CC9 /* GourmetSkanninn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GourmetSkanninn-Prefix.pch"; sourceTree = "<group>"; };
+		E6EC8C84160CC90600027CC9 /* YMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMAppDelegate.h; sourceTree = "<group>"; };
+		E6EC8C85160CC90600027CC9 /* YMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMAppDelegate.m; sourceTree = "<group>"; };
+		E6EC8C92160CC93500027CC9 /* YMScannerVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMScannerVCViewController.h; sourceTree = "<group>"; };
+		E6EC8C93160CC93500027CC9 /* YMScannerVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMScannerVCViewController.m; sourceTree = "<group>"; };
+		E6EC8C94160CC93500027CC9 /* YMScannerVCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YMScannerVCViewController.xib; sourceTree = "<group>"; };
+		E6EC8C97160CC95B00027CC9 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E6EC8C98160CC95B00027CC9 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E6EC8C99160CC95B00027CC9 /* meter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meter.png; sourceTree = "<group>"; };
+		E6EC8C9D160CCAB300027CC9 /* YMScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMScanner.h; sourceTree = "<group>"; };
+		E6EC8C9E160CCAB300027CC9 /* YMScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMScanner.m; sourceTree = "<group>"; };
+		E6EC8C9F160CCAB300027CC9 /* YMScannerSound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMScannerSound.h; sourceTree = "<group>"; };
+		E6EC8CA0160CCAB300027CC9 /* YMScannerSound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMScannerSound.m; sourceTree = "<group>"; };
+		E6EC8CA3160CCC5900027CC9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6EC8C6E160CC90600027CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EC8CA4160CCC5900027CC9 /* AudioToolbox.framework in Frameworks */,
+				E6EC8C76160CC90600027CC9 /* UIKit.framework in Frameworks */,
+				E6EC8C78160CC90600027CC9 /* Foundation.framework in Frameworks */,
+				E6EC8C7A160CC90600027CC9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6EC8C66160CC90600027CC9 = {
+			isa = PBXGroup;
+			children = (
+				E6EC8C7B160CC90600027CC9 /* GourmetSkanninn */,
+				E6EC8C74160CC90600027CC9 /* Frameworks */,
+				E6EC8C72160CC90600027CC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6EC8C72160CC90600027CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6EC8C71160CC90600027CC9 /* GourmetSkanninn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EC8C74160CC90600027CC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EC8CA3160CCC5900027CC9 /* AudioToolbox.framework */,
+				E6EC8C75160CC90600027CC9 /* UIKit.framework */,
+				E6EC8C77160CC90600027CC9 /* Foundation.framework */,
+				E6EC8C79160CC90600027CC9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6EC8C7B160CC90600027CC9 /* GourmetSkanninn */ = {
+			isa = PBXGroup;
+			children = (
+				E6EC8C9D160CCAB300027CC9 /* YMScanner.h */,
+				E6EC8C9E160CCAB300027CC9 /* YMScanner.m */,
+				E6EC8C9F160CCAB300027CC9 /* YMScannerSound.h */,
+				E6EC8CA0160CCAB300027CC9 /* YMScannerSound.m */,
+				E6EC8C92160CC93500027CC9 /* YMScannerVCViewController.h */,
+				E6EC8C93160CC93500027CC9 /* YMScannerVCViewController.m */,
+				E6EC8C94160CC93500027CC9 /* YMScannerVCViewController.xib */,
+				E6EC8C84160CC90600027CC9 /* YMAppDelegate.h */,
+				E6EC8C85160CC90600027CC9 /* YMAppDelegate.m */,
+				E6EC8C7C160CC90600027CC9 /* Supporting Files */,
+				E6D3308E16171590002537B5 /* Default.png */,
+				E6D3308F16171590002537B5 /* Default@2x.png */,
+				E6EC8C97160CC95B00027CC9 /* Icon.png */,
+				E6EC8C98160CC95B00027CC9 /* Icon@2x.png */,
+				E6EC8C99160CC95B00027CC9 /* meter.png */,
+			);
+			path = GourmetSkanninn;
+			sourceTree = "<group>";
+		};
+		E6EC8C7C160CC90600027CC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6EC8C7D160CC90600027CC9 /* GourmetSkanninn-Info.plist */,
+				E6EC8C7E160CC90600027CC9 /* InfoPlist.strings */,
+				E6EC8C81160CC90600027CC9 /* main.m */,
+				E6EC8C83160CC90600027CC9 /* GourmetSkanninn-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6EC8C70160CC90600027CC9 /* GourmetSkanninn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EC8C8F160CC90600027CC9 /* Build configuration list for PBXNativeTarget "GourmetSkanninn" */;
+			buildPhases = (
+				E6EC8C6D160CC90600027CC9 /* Sources */,
+				E6EC8C6E160CC90600027CC9 /* Frameworks */,
+				E6EC8C6F160CC90600027CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GourmetSkanninn;
+			productName = GourmetSkanninn;
+			productReference = E6EC8C71160CC90600027CC9 /* GourmetSkanninn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6EC8C68160CC90600027CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YM;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ymir Mobile";
+			};
+			buildConfigurationList = E6EC8C6B160CC90600027CC9 /* Build configuration list for PBXProject "GourmetSkanninn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6EC8C66160CC90600027CC9;
+			productRefGroup = E6EC8C72160CC90600027CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6EC8C70160CC90600027CC9 /* GourmetSkanninn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6EC8C6F160CC90600027CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EC8C80160CC90600027CC9 /* InfoPlist.strings in Resources */,
+				E6EC8C96160CC93500027CC9 /* YMScannerVCViewController.xib in Resources */,
+				E6EC8C9A160CC95B00027CC9 /* Icon.png in Resources */,
+				E6EC8C9B160CC95B00027CC9 /* Icon@2x.png in Resources */,
+				E6EC8C9C160CC95B00027CC9 /* meter.png in Resources */,
+				E6D3309016171590002537B5 /* Default.png in Resources */,
+				E6D3309116171590002537B5 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6EC8C6D160CC90600027CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EC8C82160CC90600027CC9 /* main.m in Sources */,
+				E6EC8C86160CC90600027CC9 /* YMAppDelegate.m in Sources */,
+				E6EC8C95160CC93500027CC9 /* YMScannerVCViewController.m in Sources */,
+				E6EC8CA1160CCAB300027CC9 /* YMScanner.m in Sources */,
+				E6EC8CA2160CCAB300027CC9 /* YMScannerSound.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6EC8C7E160CC90600027CC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6EC8C7F160CC90600027CC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6EC8C8D160CC90600027CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6EC8C8E160CC90600027CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6EC8C90160CC90600027CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GourmetSkanninn/GourmetSkanninn-Prefix.pch";
+				INFOPLIST_FILE = "GourmetSkanninn/GourmetSkanninn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6EC8C91160CC90600027CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GourmetSkanninn/GourmetSkanninn-Prefix.pch";
+				INFOPLIST_FILE = "GourmetSkanninn/GourmetSkanninn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6EC8C6B160CC90600027CC9 /* Build configuration list for PBXProject "GourmetSkanninn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EC8C8D160CC90600027CC9 /* Debug */,
+				E6EC8C8E160CC90600027CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EC8C8F160CC90600027CC9 /* Build configuration list for PBXNativeTarget "GourmetSkanninn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EC8C90160CC90600027CC9 /* Debug */,
+				E6EC8C91160CC90600027CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6EC8C68160CC90600027CC9 /* Project object */;
+}
